@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "My App"
-admin.site.site_title = "My App Admin Portal"
-admin.site.index_title = "My App Admin"
+admin.site.site_header = "Ximius"
+admin.site.site_title = "Ximius Admin Portal"
+admin.site.index_title = "Ximius Admin"
 
 # swagger
 api_info = openapi.Info(
